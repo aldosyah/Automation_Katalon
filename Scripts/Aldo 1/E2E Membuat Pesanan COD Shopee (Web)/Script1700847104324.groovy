@@ -9,7 +9,7 @@ WebUI.click(cari('//*[text()="Log In"]'))
 
 WebUI.setText(cari('//input[@placeholder="No. Handphone/Username/Email"]'), 'aldosyahputra0211@gmail.com')
 
-WebUI.setText(cari('//input[@type="password"]'), 'Cvmuda200721')
+WebUI.setText(cari('//input[@type="password"]'), '*******')
 
 WebUI.click(cari('//button[text()="Log in"]'))
 
