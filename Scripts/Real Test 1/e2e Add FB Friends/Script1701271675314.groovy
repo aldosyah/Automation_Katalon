@@ -7,7 +7,7 @@ WebUI.navigateToUrl('https://www.facebook.com')
 
 WebUI.setText(cari('//input[@id="email"]'), '081275265014')
 
-WebUI.setText(cari('//input[@type="password"]'), 'cvmuda200721')
+WebUI.setText(cari('//input[@type="password"]'), '**********')
 
 WebUI.click(cari('//button[@name="login"]'))
 
