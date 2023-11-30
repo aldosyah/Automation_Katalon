@@ -18,3 +18,21 @@ WebUI.setText(cari('//input[@placeholder="Cari di Facebook"]'), 'Alisha Syazani'
 WebUI.click(cari('(//div[@role="none"])[2]'))
 
 WebUI.click(cari("(//span[text()='Tambah teman'])[1]"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -15,7 +15,7 @@
       <guid>ace96912-e7bb-4dc1-8076-a86f4f6c0042</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Aldo 1/E2E Membuat Pesanan COD Shopee (Web)</testCaseId>
+      <testCaseId>Test Cases/Real Test 1/E2E CheckOut COD Shopee (Web)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
