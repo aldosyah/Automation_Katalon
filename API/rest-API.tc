@@ -1,0 +1,24 @@
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+
+ResponseObject respon1 = WS.sendRequest(findTestObject('Object Repository/API/POST sw'))
+WS.comment(respon1.getResponseBodyContent())
+
+ResponseObject respon2 = WS.sendRequest(findTestObject('Object Repository/API/CREATE'))
+WS.comment(respon2.getResponseBodyContent())
+
+ResponseObject respon3 = WS.sendRequest(findTestObject('Object Repository/API/DELETE'))
+WS.comment(respon3.getResponseBodyContent())
+
+ResponseObject respon4 = WS.sendRequest(findTestObject('Object Repository/API/GET'))
+WS.comment(respon4.getResponseBodyContent())
+
+ResponseObject respon5 = WS.sendRequest(findTestObject('Object Repository/API/LIST USERS'))
+WS.comment(respon5.getResponseBodyContent())
+
+ResponseObject respon6 = WS.sendRequest(findTestObject('Object Repository/API/POST S'))
+WS.comment(respon6.getResponseBodyContent())
+
+ResponseObject respon7 = WS.sendRequest(findTestObject('Object Repository/API/PUT'))
+WS.comment(respon7.getResponseBodyContent())
